@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; /* centers the content horizontally /
+  align-items: center;
   font-family: Arial, sans-serif;
   text-align: center;
 }
@@ -18,10 +18,11 @@ body {
   font-style: italic;
   font-size: 14px;
   color: #333;
-  position: fixed;     / lock it to bottom /
-  bottom: 20px;        / space from bottom /
-  left: 50%;           / anchor in the middle /
-  transform: translateX(-50%); / pull it back to perfectly center /
-  width: 80%;          / keep it neat, prevent it stretching across screen /
-  text-align: center;  / center the text inside */
+  background-color: #f0f0f0;  /* gray background /
+  padding: 10px 20px;         / space around the text /
+  text-align: center;         / center text inside /
+  width: 100%;                / full width across screen /
+  position: fixed;            / stick to bottom /
+  bottom: 0;                  / attach at bottom /
+  left: 0;                    / stretch from left edge */
 }
