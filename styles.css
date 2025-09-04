@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;   /* centers everything horizontally /
+  align-items: center; /* center horizontally /
   font-family: Arial, sans-serif;
   text-align: center;
 }
@@ -15,10 +15,13 @@ body {
 }
 
 .dedication {
-  margin: 20px;
   font-style: italic;
   font-size: 14px;
   color: #333;
   text-align: center;
-  width: 100%; / makes sure it's centered properly */
+  width: 100%;
+  position: fixed;    / locks it in place /
+  bottom: 20px;       / space from bottom /
+  left: 50%;          / start from middle /
+  transform: translateX(-50%); / perfectly center */
 }
