@@ -5,8 +5,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
+  align-items: center;   /* centers everything horizontally /
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .content {
@@ -18,5 +19,6 @@ body {
   font-style: italic;
   font-size: 14px;
   color: #333;
+  text-align: center;
+  width: 100%; / makes sure it's centered properly */
 }
-
