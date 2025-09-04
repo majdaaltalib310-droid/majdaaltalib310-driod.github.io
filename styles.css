@@ -1,27 +1,23 @@
-/* Reset */
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: gray; /* background here */
-}
-
-/* Center content */
 body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;  /* horizontally */
-  align-items: center;      /* vertically */
-  text-align: center;       /* center the text itself */
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-footer {
-  margin-top: 40px;
-  text-align: center;
-  font-size: 14px;
-  color: #333;   /* dark grey */
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.5;
+h1 {
+  margin-top: 50px;
 }
+
+.dedication {
+  margin: 20px;
+  font-style: italic;
+  font-size: 14px;
+  color: #333;
+}
+
 
