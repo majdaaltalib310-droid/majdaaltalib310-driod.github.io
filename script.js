@@ -1,3 +1,3 @@
-document.getElementById('loveBtn').addEventListener('click', () => {
-  alert('I love you! ❤️');
+document.getElementById("loveBtn").addEventListener("click", function() {
+  alert("I love you Raghad ❤️");
 });
