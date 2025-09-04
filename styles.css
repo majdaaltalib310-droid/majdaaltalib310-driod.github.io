@@ -13,3 +13,15 @@ body {
   align-items: center;      /* vertically */
   text-align: center;       /* center the text itself */
 }
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;   /* dark grey */
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
