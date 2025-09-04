@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;   /* vertical center /
+  align-items: center;       / horizontal center /
+}
+
+main {
+  text-align: center;        / center text inside main */
+}
