@@ -4,25 +4,25 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;  /* keeps main content in the middle /
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 .content {
-  margin-top: 50px;
+  margin-top: 0; / no need for extra margin, we center vertically /
 }
 
 .dedication {
   font-style: italic;
   font-size: 14px;
   color: #333;
-  background-color: #f0f0f0;  /* gray background /
-  padding: 10px 20px;         / space around the text /
-  text-align: center;         / center text inside /
-  width: 100%;                / full width across screen /
-  position: fixed;            / stick to bottom /
-  bottom: 0;                  / attach at bottom /
-  left: 0;                    / stretch from left edge */
+  background-color: #f0f0f0;  / gray background /
+  padding: 10px 20px;          / space around text /
+  text-align: center;          / center text inside /
+  width: 100%;                 / full width /
+  position: fixed;             / lock at bottom */
+  bottom: 0;
+  left: 0;
 }
